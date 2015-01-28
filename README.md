@@ -10,7 +10,9 @@ This is a preseed file I use to deploy Debian servers. It should live on a webse
 1. Place this preseed file on an accessable webserver.
 2. Boot your desired version of Debian.
 3. At the graphical installation selection screen press the 'Escape' key.
+  <img src="https://raw.githubusercontent.com/artsturdevant/debian-preseed/master/debian-boot-screen.png">
 4. type: auto hostname=theNameofYourComputer url=http://yourwebserverURL/preseed.cfg
+  <img src="https://raw.githubusercontent.com/artsturdevant/debian-preseed/master/debian-preinstall.png"> 
 5. hit 'Enter'
 6. Get a coffee
 7. Enjoy your new server.
