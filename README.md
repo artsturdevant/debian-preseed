@@ -1,9 +1,9 @@
 # debian-preseed
-This is a preseed file I use to deploy Debian servers. It should live on a webserver that your servers can reach. If you often deploy servers to different many different types of hardware you may prefer this method for provisioning new servers. This approach works very well when coupled with a configuration management service like Puppet or Salt. *By default this installation file will completely wipe the first hard drive* and create an LVM volune. 
+This is a preseed file I use to deploy Debian servers. It should live on a webserver that your servers can reach. If you often deploy servers to different many different types of hardware you may prefer this method for provisioning new servers. This approach works very well when coupled with a configuration management service like Puppet or Salt. **By default this installation file will completely wipe the first hard drive** and create an LVM volune. 
 
 ## Notes about this file
 - This file will install a minimal installation of Debian.
-- You can use mkpasswd *(apt-get install whois)* to generate a static password for root and first user
+- You can use mkpasswd **(apt-get install whois)** to generate a static password for root and first user
 - Feel free to take and customize it.
 
 ## How to use this preseed file
